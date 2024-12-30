@@ -43,7 +43,11 @@ const useStyles = makeStyles((theme) => ({
   },
   drawer: {
     width: 250,
+    height: '100vh', // Full height to ensure everything fits inside
     padding: '20px',
+    display: 'flex',
+    flexDirection: 'column', // Ensures links and buttons are stacked vertically
+    justifyContent: 'flex-start', // Start from the top
   },
   drawerLink: {
     display: 'block',
