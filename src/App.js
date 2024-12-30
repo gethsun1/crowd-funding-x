@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import Hero from './components/Hero';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-// Create a custom theme
+// Custom Theme
 const theme = createTheme({
   palette: {
     primary: {
@@ -22,15 +23,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        {/* Include Header */}
         <Header />
-        {/* Main Content */}
-        <main style={{ padding: '20px', textAlign: 'center', color: '#263238' }}>
-          <h1>Welcome to CrowdfundX</h1>
-          <p>
-            A decentralized crowdfunding platform for creators, startups, and social causes.
-          </p>
-        </main>
+        <Hero />
       </div>
     </ThemeProvider>
   );
