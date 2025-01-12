@@ -9,7 +9,7 @@ export async function task(roundNumber: number): Promise<void> {
     const ipfs = create({ url: "https://ipfs.infura.io:5001/api/v0" });
 
     // Define the file or folder to be hosted
-    const contentPath = "./build"; // Replace with your file/folder path
+    const contentPath = "../build"; // Replace with your file/folder path
 
     const cids = [];
     for await (const file of ipfs.addAll(globSource(contentPath, '**/*'))) {
