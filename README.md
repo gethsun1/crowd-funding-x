@@ -170,7 +170,6 @@ We welcome contributions to improve the Crowdfunding Dapp! To contribute:
 
 Please ensure your code follows our coding standards and passes the tests.
 
----
 
 
 ---
@@ -178,4 +177,3 @@ Please ensure your code follows our coding standards and passes the tests.
 ## Conclusion
 
 This **Crowdfunding Dapp** leverages the power of blockchain for transparent crowdfunding, with Koii Network providing decentralized hosting and Koii smart contracts enabling secure crowdfunding functionality. By utilizing Koii’s decentralized infrastructure and smart contract capabilities, we can ensure a trustless, transparent, and scalable platform for crowdfunding campaigns.
-```
